@@ -33,6 +33,8 @@ buttonValues.forEach(row => {
             button.classList.add('span-3');
         }
 
+        button.addEventListener('click', () => handleInput(value));
+
         rowDiv.appendChild(button);
     });
 
@@ -70,6 +72,8 @@ function operate(operator, a, b){
         return 'ERROR: Unknown operator';
     }
 }
+
+
 
 num1 = 2;
 operator = '*';
