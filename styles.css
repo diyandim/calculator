@@ -1,0 +1,36 @@
+#calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.button-row .btn {
+    text-align: center;
+    font-size: 35px;
+    margin: 5px;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.button-row .span-2 {
+    width: 110px;
+}
+
+.button-row .span-3 {
+    width: 170px;
+}
+
